@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <style>
+        *  {padding: 3px;
+            margin: 0px;}
+    </style>
+</head>
+<body>
+    <center>
+        <font face="Arial" size="10">
+            <a href="index.html">Pagina inicial</a><br>
+            <a href="listaCliente.php">Acessar Lista</a>
+        </font>
+    </center>
+
+    <h2>CADASTRE-SE ABAIXO!</h2>
+
+    <form method="post" action="insereCliente.php">
+        <label>Nome do Cliente</label><br>
+        <input type="text" name="Nome" placeholder="Preencha seu nome"></input>
+        <br>
+
+        <label>Endereço</label><br>
+        <input type="text" name="Endereco" placeholder="Preencha seu endereço"></input>
+        <br>
+
+        <label>Telefone</label><br>
+        <input type="text" name="Telefone" placeholder="Preencha o número"></input>
+        <br>
+
+        <button type="submit">CADASTRAR AGORA</button>
+    </form>
+    
+</body>
+</html>
